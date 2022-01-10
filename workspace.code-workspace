@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "../../Обучение по курсу"
+	},
+	{
+		"path": "../../../вёрстка/GeekBrains/htmlcss"
+	}
+],
+  "settings": {
+    "files.autoSave": "onWindowChange",
+    "editor.fontSize": 16,
+    "editor.wordWrap": "on",
+    "liveServer.settings.multiRootWorkspaceName": "htmlcss"
+  }
+}

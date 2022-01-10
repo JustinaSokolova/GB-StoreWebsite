@@ -1,0 +1,81 @@
+@media (max-width: 767px)
+    .center
+        padding-left: 16px
+        padding-right: 16px
+
+    .header
+        &__link
+            display: none
+
+    .form-search
+        position: absolute
+        width: 154px
+        height: 25px
+
+    .menu-box
+        top: 0
+        width: 100%
+        transition: all 0.5s
+        &__heading
+            display: none
+
+    .block-icons
+        display: block
+        margin-bottom: 16px
+        display: flex
+        gap: 32px
+        & path
+            fill: #7a7777
+
+    #switcher:checked ~ .menu-box
+        right: 0
+        top: calc(-100% - 75px)
+
+    .banner
+        padding-left: 16px
+        padding-right: 16px
+        min-height: 363px
+
+        &__box-img
+            display: none
+        &__box-name
+            width: 100%
+            display: block
+            display: flex
+            align-items: center
+            justify-content: center
+            padding-left: 0
+
+        &__box-heading
+            margin-top: 0
+
+        &__heading
+            font-size: 38px
+            line-height: 46px
+            &-min
+                font-size: 20px
+                line-height: 24px
+
+    .offer
+        &__box
+            flex-direction: column
+
+        &__big-img
+            height: 111px
+            object-fit: cover
+
+    .form-input
+        width: 190px
+
+    .form-button
+        width: 85px
+
+    .footer-min
+        min-height: 145px
+
+        &__copy
+            display: flex
+            flex-direction: column-reverse
+
+    .footer-icons
+        margin-top: 45px
